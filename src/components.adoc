@@ -1,0 +1,22 @@
+= Components
+
+== Registers
+
+* Number of registers: 16footnote:[8 of them are current registered.]
+* Register size: 8 bytes (64 bits)
+
+=== Register names
+
+* ``ia``: instruction address^C^
+* ``ra``: return address^C^
+* ``res``: result of the operation^C^
+* ``op<n>``: `n`-th operand (e.g. `op3`: third operand)^C^
+
+5 registers are dedicated to be operands.
+Syscalls that require more than 5 parameters should expect on the last operand register a pointer to a struct containing the rest of the arguments.
+
+== Flash memory
+
+Flash memory is basically like RAM but its access is not random.
+
+* Sizefootnote:[It is configurable before starting the machine. It cannot be changed once it is running.]: 268'435'456 (2^28^) bytes

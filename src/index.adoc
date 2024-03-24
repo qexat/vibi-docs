@@ -1,0 +1,7 @@
+= Index
+
+Index of the documentation.
+
+== Convention
+
+When something is annotated with a "C" in exponent, it means that this is a convention and is not strictly enforced.

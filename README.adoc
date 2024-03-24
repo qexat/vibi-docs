@@ -1,0 +1,5 @@
+= ViBI Docs
+
+WARNING: This is work in progress!
+
+Documentation for the **VI**sm **B**itcode **I**nterpreter.
